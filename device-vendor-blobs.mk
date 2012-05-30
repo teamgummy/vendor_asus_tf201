@@ -97,7 +97,11 @@ PRODUCT_COPY_FILES := \
     vendor/asus/tf201/proprietary/lib/libsensors.isl29018.so:system/lib/libsensors.isl29018.so \
     vendor/asus/tf201/proprietary/lib/libsensors.base.so:system/lib/libsensors.base.so \
     vendor/asus/tf201/proprietary/lib/libsensors.isl29028.so:system/lib/libsensors.isl29028.so \
-    vendor/asus/tf201/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so
+    vendor/asus/tf201/proprietary/lib/libsensors.mpl.so:system/lib/libsensors.mpl.so \
+    vendor/asus/tf201/proprietary/lib/hw/gps.tegra.so:system/lib/hw/gps.tegra.so \
+	vendor/asus/tf201/proprietary/lib/hw/gpsdongle.tegra.so:system/lib/hw/gpsdongle.tegra.so \
+	vendor/asus/tf201/proprietary/lib/hw/gpsinternal.tegra.so:system/lib/hw/gpsinternal.tegra.so
+
 
 # Misc
 PRODUCT_COPY_FILES += \
@@ -106,6 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/bin/wifimacwriter:system/bin/wifimacwriter \
     vendor/asus/tf201/proprietary/etc/enctune.conf:system/etc/enctune.conf \
     vendor/asus/tf201/proprietary/etc/asound.conf:system/etc/asound.conf \
+    vendor/asus/tf201/proprietary/etc/u-blox.conf:system/etc/u-blox.conf \	
+    vendor/asus/tf201/proprietary/etc/gps.conf:system/etc/gps.conf \	
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
     vendor/asus/tf201/proprietary/etc/firmware/nvavp_os_e0000000.bin:system/etc/firmware/nvavp_os_e0000000.bin \
@@ -168,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/tf201/proprietary/lib/libkeyboard_jni.so:system/lib/libkeyboard_jni.so \
     vendor/asus/tf201/proprietary/app/BatteryWidget.apk:system/app/BatteryWidget.apk \
     vendor/asus/tf201/proprietary/app/EmailWidget.apk:system/app/EmailWidget.apk \
-    vendor/asus/tf201/proprietary/app/MyWater.apk:system/app/MyWater.apk \
     vendor/asus/tf201/proprietary/app/MyWater.apk:system/app/MyWater.apk \
     vendor/asus/tf201/proprietary/app/Weather.apk:system/app/Weather.apk \
     vendor/asus/tf201/proprietary/app/Keyboard.apk:system/app/Keyboard.apk 
